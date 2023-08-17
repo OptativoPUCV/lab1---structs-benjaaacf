@@ -38,6 +38,13 @@ void reverseArray(int arr[], int size)
   while(posI < posF)
   {
     int aux = arr[posI];
+
+    arr[posI] = arr[posF];
+
+    arr[posF] = aux;
+
+    posI ++;
+    posF --;
   }
 
 }
