@@ -42,3 +42,13 @@ exercises.c:76:5: error: expected ';' before '}' token
      ^
 Compilation failed
 c0b5b2a
+ju., 17 de ago. de 2023 17:04:10: 
+ exercises.c | 47 ++++++++++++++++++++++++++++++++++++++++++++++-
+ 1 file changed, 46 insertions(+), 1 deletion(-)
+In file included from test.c:1:0:
+exercises.c: In function 'filterEvenNumbers':
+exercises.c:76:5: error: expected ';' before '}' token
+     }
+     ^
+Compilation failed
+997aa71
