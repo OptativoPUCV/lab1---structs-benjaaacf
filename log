@@ -104,3 +104,14 @@ ju., 17 de ago. de 2023 21:30:26:
  tests:  0|4
 total_score: 30/70
 4046e64
+ju., 17 de ago. de 2023 21:31:43: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:0:
+exercises.c: In function 'filterEvenNumbers':
+exercises.c:98:10: error: return makes pointer from integer without a cast [-Werror=int-conversion]
+   return aux;
+          ^~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+c7c9979
