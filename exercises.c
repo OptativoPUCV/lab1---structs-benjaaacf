@@ -115,7 +115,7 @@ void mergeSortedArrays(int arr1[], int size1, int arr2[], int size2, int result[
   {
     if(arr1[ind1] < arr2[ind2])
     {
-      arr3[ind3] = arr1[ind1]
+      arr3[ind3] = arr1[ind1];
 
       ind1 ++;
     }else{
