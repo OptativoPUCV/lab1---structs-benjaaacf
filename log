@@ -206,3 +206,20 @@ exercises.c:112:7: error: unused variable 'indRes' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 0fdc57d
+ju., 17 de ago. de 2023 22:37:15: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:1:0:
+exercises.c: In function 'mergeSortedArrays':
+exercises.c:114:3: error: implicit declaration of function 'While' [-Werror=implicit-function-declaration]
+   While(ind1 < size1 && ind2 < size2)
+   ^~~~~
+exercises.c:115:3: error: expected ';' before '{' token
+   {
+   ^
+exercises.c:112:7: error: unused variable 'indRes' [-Werror=unused-variable]
+   int indRes = 0;
+       ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+92d72a1
