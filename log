@@ -229,3 +229,9 @@ ju., 17 de ago. de 2023 22:37:38:
  tests:  0|2
 total_score: 50/70
 022a065
+vi., 18 de ago. de 2023 19:21:04: 
+ exercises.c | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+ tests:  0|3
+total_score: 40/70
+7799da9
