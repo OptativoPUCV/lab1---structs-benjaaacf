@@ -223,3 +223,9 @@ exercises.c:112:7: error: unused variable 'indRes' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 92d72a1
+ju., 17 de ago. de 2023 22:37:38: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|2
+total_score: 50/70
+022a065
