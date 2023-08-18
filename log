@@ -241,3 +241,16 @@ vi., 18 de ago. de 2023 19:24:11:
  tests:  0|3
 total_score: 40/70
 8e3d30a
+vi., 18 de ago. de 2023 19:30:21: 
+ exercises.c | 8 ++++++--
+ 1 file changed, 6 insertions(+), 2 deletions(-)
+In file included from test.c:1:0:
+exercises.c: In function 'filterEvenNumbers':
+exercises.c:80:8: error: redefinition of 'ptrPares'
+   int *ptrPares = (int*)malloc(cont* sizeof(int));
+        ^~~~~~~~
+exercises.c:61:8: note: previous definition of 'ptrPares' was here
+   int* ptrPares = NULL; // Puntero al nuevo arreglo, donde van los pares
+        ^~~~~~~~
+Compilation failed
+c0642a3

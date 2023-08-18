@@ -77,11 +77,15 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
     return ptrPares;
   }
 
-  ptrPares = (int*)malloc(cont* sizeof(int));
+  int *ptrPares = (int*)malloc(cont* sizeof(int));
 
-  if(ptrPares == NULL)
+  for (int i = 0; i < size; i++)
   {
-    exit(1);
+    if(ptrPares == NULL)
+    {
+      *newSize = 0;
+      return NULL;
+    }
   }
 
   int aux = 0;
