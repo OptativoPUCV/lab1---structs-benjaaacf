@@ -70,7 +70,30 @@ int *filterEvenNumbers(int arr[], int size, int *newSize)
     }
   }
 
-  
+  if(cont == 0)
+  {
+    *newSize = 0;
+
+    return ptrPares;
+  }
+
+  ptrPares = (int*)malloc(cont* sizeof(int));
+
+  if(ptrPares == NULL)
+  {
+    exit(1);
+  }
+
+  int aux = 0;
+  for(int i = 1; i < size; i++)
+  {
+    if(arr[i] % 2 == 0)
+    {
+      ptrPares[aux] = arr[i];
+      aux ++;
+    }
+  }
+
 }
 
 /*
