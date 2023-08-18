@@ -254,3 +254,9 @@ exercises.c:61:8: note: previous definition of 'ptrPares' was here
         ^~~~~~~~
 Compilation failed
 c0642a3
+vi., 18 de ago. de 2023 19:31:56: 
+ exercises.c | 10 ----------
+ 1 file changed, 10 deletions(-)
+ tests:  0|1
+total_score: 60/70
+1e51187
