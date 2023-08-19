@@ -283,3 +283,9 @@ vi., 18 de ago. de 2023 21:04:04:
  tests:  0|2
 total_score: 50/70
 a9d7d7d
+vi., 18 de ago. de 2023 21:06:40: 
+ exercises.c | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+ tests:  0|1
+total_score: 60/70
+d5d0daa
