@@ -220,4 +220,19 @@ typedef struct nodo {
   struct nodo *siguiente; // puntero al siguiente nodo
 } Nodo;
 
+Nodo* nuevoNodo(int numero)
+{
+  Nodo *nuevo = (Nodo*)malloc(sizeof(nuevo));
+
+  if(nuevo == NULL)
+  {
+    exit(1);
+  }
+
+  nuevo -> numero = numero;
+  nuevo -> siguiente = NULL;
+
+  return nuevo;
+}
+
 Nodo *crearListaEnlazada(int arr[], int size) { return NULL; }
