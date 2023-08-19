@@ -277,3 +277,9 @@ exercises.c:244:11: error: unused variable 'cabeza' [-Werror=unused-variable]
 cc1.exe: all warnings being treated as errors
 Compilation failed
 a777635
+vi., 18 de ago. de 2023 21:04:04: 
+ exercises.c | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+ tests:  0|2
+total_score: 50/70
+a9d7d7d
