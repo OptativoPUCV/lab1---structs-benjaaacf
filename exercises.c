@@ -235,4 +235,15 @@ Nodo* nuevoNodo(int numero)
   return nuevo;
 }
 
-Nodo *crearListaEnlazada(int arr[], int size) { return NULL; }
+Nodo *crearListaEnlazada(int arr[], int size) 
+{ 
+  if(size == 0)
+  {
+    return NULL;
+
+    Nodo *cabeza = nuevoNodo(arr[0]);
+  }
+  
+  
+  return NULL; 
+}

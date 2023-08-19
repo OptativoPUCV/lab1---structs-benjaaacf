@@ -266,3 +266,14 @@ vi., 18 de ago. de 2023 20:02:26:
  tests:  0|1
 total_score: 60/70
 ba6a7b3
+vi., 18 de ago. de 2023 20:04:10: 
+ exercises.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+In file included from test.c:1:0:
+exercises.c: In function 'crearListaEnlazada':
+exercises.c:244:11: error: unused variable 'cabeza' [-Werror=unused-variable]
+     Nodo *cabeza = nuevoNodo(arr[0]);
+           ^~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+a777635
